@@ -81,7 +81,7 @@ def create_official_doc(out_path):
     p_recip.paragraph_format.space_after = Pt(4)
     r_recip_label = p_recip.add_run("受文者：")
     set_run_font(r_recip_label, size_pt=12.5, bold=True)
-    r_recip_val = p_recip.add_run("財團法人吳修齊紀念先嚴吳克讀公先慈吳陳氏勤嫩文教公益基金會")
+    r_recip_val = p_recip.add_run("財團法人吳修齊紀念先嚴吳克讀公先慈吳陳氏勤娘文教公益基金會")
     set_run_font(r_recip_val, size_pt=12.5, bold=True)
 
     # 5. Metadata block (發文日期、發文字號、速別、密等、附件)
@@ -154,7 +154,7 @@ def create_official_doc(out_path):
     p_zb.paragraph_format.line_spacing = Pt(14)
     r_zb_l = p_zb.add_run("正本：")
     set_run_font(r_zb_l, size_pt=11, bold=True)
-    r_zb_v = p_zb.add_run("財團法人吳修齊紀念先嚴吳克讀公先慈吳陳氏勤嫩文教公益基金會")
+    r_zb_v = p_zb.add_run("財團法人吳修齊紀念先嚴吳克讀公先慈吳陳氏勤娘文教公益基金會")
     set_run_font(r_zb_v, size_pt=11)
 
     p_fb = doc.add_paragraph()
@@ -185,4 +185,4 @@ def create_official_doc(out_path):
     print("Official doc created successfully at:", out_path)
 
 if __name__ == '__main__':
-    create_official_doc("output/1160102_吳修齊基金會_重溪國小第一期款函復公文_v1.docx")
+    create_official_doc("output/1160102_吳修齊基金會_重溪國小第一期款函復公文_v2.docx")
